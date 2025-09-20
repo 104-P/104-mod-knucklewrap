@@ -1,0 +1,8 @@
+<config>
+    <insertAfter xpath="//crafting_skills/crafting_skill[@name='craftingKnuckles']/display_entry[@unlock_level='1,2,4,6,8,10']">
+      <display_entry item="modKnuckleWrapMod" unlock_level="10" />
+    </insertAfter>
+    <insertAfter xpath="//crafting_skills/crafting_skill[@name='craftingKnuckles']/effect_group/passive_effect[@level='1,75']">
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="modKnuckleWrapMod" />
+    </insertAfter>
+</config>

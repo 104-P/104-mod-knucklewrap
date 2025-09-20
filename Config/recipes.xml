@@ -1,0 +1,8 @@
+<configs>
+    <append xpath="/recipes">
+        <recipe name="modKnuckleWrapMod" count="1" tags="perkBrawler,packMuleCrafting">
+            <ingredient name="resourceScrapIron" count="6" />
+            <ingredient name="resourceCloth" count="20" />
+        </recipe>
+    </append>
+</configs>
