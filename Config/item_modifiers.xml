@@ -5,8 +5,8 @@
             <property name="CustomIcon" value="meleeWpnKnucklesT0LeatherKnuckles" />
             <property name="TraderStageTemplate" value="modsTier2" />
             <effect_group tiered="false">
-                <passive_effect name="EntityDamage" operation="perc_add" value="1" />
-                <passive_effect name="BlockDamage" operation="perc_add" value="1" />
+                <passive_effect name="EntityDamage" operation="base_add" value="50" />
+                <passive_effect name="BlockDamage" operation="base_add" value="50" />
             </effect_group>
         </item_modifier>
     </append>
