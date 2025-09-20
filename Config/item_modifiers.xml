@@ -1,5 +1,5 @@
 <configs>
-    <append xpath="/items">
+    <append xpath="/item_modifiers">
         <item_modifier name="modKnuckleWrapMod" installable_tags="armorHands" modifier_tags="damage" blocked_tags="noMods" type="attachment">
             <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
             <property name="CustomIcon" value="meleeWpnKnucklesT0LeatherKnuckles" />
